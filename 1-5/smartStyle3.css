@@ -1,0 +1,36 @@
+@media screen and (max-width: 479px) {
+    header {
+        width: 200px;
+        height: 200px;
+    }
+    .header-right {
+        top: 20px;
+        left: 70px;
+    }
+    .header-right ul {
+        display: block;
+    }
+    .header-right ul li + li{
+        border-top: none;
+        border-left: 10px white solid;
+    }
+
+    .contents {
+        width: 200px;
+        display: block;
+    }
+    .left {
+        width: 200px;
+    }
+    .right {
+        width: 200px;
+    }
+    .right-contents {
+        top: 20px;
+        left: 30px;
+    }
+
+    footer {
+        width: 200px;
+    }
+}
